@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/recycler_toolbar"
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        android:title="ToolBar"
+        android:elevation="5dp"
+        android:minHeight="70dp"
+        android:background="@color/colorPrimary"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:id="@+id/rcfrag_main">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/logores"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Searching for your Favourite Restaurants"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"/>
+    </FrameLayout>
+
+</RelativeLayout>

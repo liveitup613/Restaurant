@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardgt8"
+    card_view:cardCornerRadius="2dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginRight="6dp"
+    android:layout_marginLeft="6dp"
+    android:clickable="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="15dp"
+                android:textSize="10dp"
+                android:id="@+id/type"
+                android:layout_toRightOf="@+id/adre"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="4dp"
+
+                android:textColor="@color/green"
+                android:text="Card View" />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="28dp"
+                android:src="@drawable/food"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/food"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:id="@+id/title"
+                android:textSize="12dp"
+                android:text="fdxf"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="15dp"
+                android:textSize="10dp"
+                android:id="@+id/desc"
+                android:layout_toRightOf="@+id/adre"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginRight="4dp"
+
+                android:textColor="@color/black"
+                android:text="Card View" />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/addressicon"
+                android:id="@+id/adre"/>
+            <!-- <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:layout_marginTop="28dp"
+                android:textColor="@color/green"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:id="@+id/adre"/> -->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="15dp"
+                android:textSize="10dp"
+                android:id="@+id/phone"
+                android:layout_toRightOf="@+id/adre"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="74dp"
+                android:layout_marginRight="4dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Card View" />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="72dp"
+                android:src="@drawable/phone"
+                android:id="@+id/tel"/>
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:layout_marginTop="50dp"
+                android:textColor="@color/green"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:id="@+id/tel"/> -->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="15dp"
+                android:textSize="10dp"
+                android:id="@+id/site"
+                android:layout_toRightOf="@+id/adre"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="96dp"
+                android:layout_marginRight="4dp"
+                android:textColor="@color/darkblue"
+                android:text="Card View" />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="94dp"
+                android:src="@drawable/netscape"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/web"/>
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Website"
+                android:layout_marginTop="72dp"
+                android:textColor="@color/green"
+                android:layout_marginLeft="5dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:id="@+id/web"/> -->
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/rating"
+                android:numStars="5"
+                android:stepSize="0.1"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_below="@+id/web">
+
+            </RatingBar>
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
